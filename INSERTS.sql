@@ -12,3 +12,79 @@ USE USERS;
 INSERT INTO CAJA (DINERO, DIA, SEMANA, MES, AÑO)
 VALUES (34, DAY(GETDATE()), DATEPART(ISO_WEEK, GETDATE()), MONTH(GETDATE()), YEAR(GETDATE()));
 
+
+
+-------CAFETERIA-------
+
+USE CAFETERIA;
+
+INSERT INTO CAFE_CHOCOLATE (ID, NOMBRE, PRECIO, STOCK) 
+VALUES 
+    (1, 'CHOCOLATE_TAZA', 2.00, 10), 
+    (2, 'CAFE', 1.20, 10), 
+    (3, 'CAFE_LECHE', 1.50, 10), 
+    (4, 'CORTADO', 1.30, 10), 
+    (5, 'CAFE_AMERICANO', 1.45, 10), 
+    (6, 'CARAJILLO', 2.00, 10);
+
+-- select * from CAFE_CHOCOLATE;
+
+INSERT INTO CAFE_CHOCOLATE (ID, NOMBRE, PRECIO, STOCK) 
+VALUES 
+    (1, 'CHOCOLATE_TAZA', 2.00, 10), 
+    (2, 'CAFE', 1.20, 10), 
+    (3, 'CAFE_LECHE', 1.50, 10), 
+    (4, 'CORTADO', 1.30, 10), 
+    (5, 'CAFE_AMERICANO', 1.45, 10), 
+    (6, 'CARAJILLO', 2.00, 10);
+
+-- select * from CAFE_CHOCOLATE;
+
+
+INSERT INTO CAFE_CHOCOLATE (ID, NOMBRE, PRECIO, STOCK) 
+VALUES 
+    (1, 'CHOCOLATE_TAZA', 2.00, 10), 
+    (2, 'CAFE', 1.20, 10), 
+    (3, 'CAFE_LECHE', 1.50, 10), 
+    (4, 'CORTADO', 1.30, 10), 
+    (5, 'CAFE_AMERICANO', 1.45, 10), 
+    (6, 'CARAJILLO', 2.00, 10);
+
+-- select * from CAFE_CHOCOLATE;
+
+
+INSERT INTO CAFE_CHOCOLATE (ID, NOMBRE, PRECIO, STOCK) 
+VALUES 
+    (1, 'CHOCOLATE_TAZA', 2.00, 10), 
+    (2, 'CAFE', 1.20, 10), 
+    (3, 'CAFE_LECHE', 1.50, 10), 
+    (4, 'CORTADO', 1.30, 10), 
+    (5, 'CAFE_AMERICANO', 1.45, 10), 
+    (6, 'CARAJILLO', 2.00, 10);
+
+-- select * from CAFE_CHOCOLATE;
+
+
+INSERT INTO CAFE_CHOCOLATE (ID, NOMBRE, PRECIO, STOCK) 
+VALUES 
+    (1, 'CHOCOLATE_TAZA', 2.00, 10), 
+    (2, 'CAFE', 1.20, 10), 
+    (3, 'CAFE_LECHE', 1.50, 10), 
+    (4, 'CORTADO', 1.30, 10), 
+    (5, 'CAFE_AMERICANO', 1.45, 10), 
+    (6, 'CARAJILLO', 2.00, 10);
+
+-- select * from CAFE_CHOCOLATE;
+
+
+INSERT INTO CAFE_CHOCOLATE (ID, NOMBRE, PRECIO, STOCK) 
+VALUES 
+    (1, 'CHOCOLATE_TAZA', 2.00, 10), 
+    (2, 'CAFE', 1.20, 10), 
+    (3, 'CAFE_LECHE', 1.50, 10), 
+    (4, 'CORTADO', 1.30, 10), 
+    (5, 'CAFE_AMERICANO', 1.45, 10), 
+    (6, 'CARAJILLO', 2.00, 10);
+
+-- select * from CAFE_CHOCOLATE;
+
