@@ -1,0 +1,3 @@
+USE USERS;
+SELECT * FROM USERS;
+SELECT * FROM CAJA as usuario;
